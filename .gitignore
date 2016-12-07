@@ -11,11 +11,11 @@
 *MockUtils.java
 *.ipr
 *.iml
-.idea/*.xml
+*.xml
 *.iws
 *.class
 *.log
-.idea
+.idea/
 build
 .classpath
 .project
