@@ -11,11 +11,10 @@
 *MockUtils.java
 *.ipr
 *.iml
-*.xml
 *.iws
 *.class
 *.log
-.idea/
+/.idea
 build
 .classpath
 .project
@@ -24,3 +23,4 @@ gradle/
 gradlew
 gradlew.bat
 out/
+src/test/
