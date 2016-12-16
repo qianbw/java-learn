@@ -16,6 +16,8 @@ public class DemoApplication {
         springApplication.addListeners(new MyContextClosedEvent());
         springApplication.addListeners(new MyContextStartedEvent());
         springApplication.addListeners(new MyContextStoppedEvent());
+
+        springApplication.setWebEnvironment(true);
         springApplication.run(args);
     }
 }
