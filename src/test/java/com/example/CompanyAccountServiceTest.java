@@ -21,6 +21,7 @@ public class CompanyAccountServiceTest extends AbstractJUnit4SpringContextTests 
 
     @org.junit.Test
     public void tests1() {
-        System.out.println("1111111");
+        char a = '你';
+        System.out.println(a);
     }
 }
