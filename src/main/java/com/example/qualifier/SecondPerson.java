@@ -3,7 +3,7 @@ package com.example.qualifier;
 /**
  * Created by qianbw on 2017/3/6.
  */
-public class OtherPerson {
+public class SecondPerson {
     private Person person = new Person();
 
     public void print() {
