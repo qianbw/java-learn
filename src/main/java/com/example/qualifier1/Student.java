@@ -6,6 +6,11 @@ import com.example.qualifier.Person;
  * Created by qianbw on 2017/3/6.
  */
 public class Student extends Person {
+
+    public Student() {
+        System.out.println("Student init ......");
+    }
+
     public void print() {
         // 子类无法获取到privateVal和deafultVal
         String info = this.protectedVal + this.publicVal;

@@ -21,5 +21,7 @@ public class Person {
         this.privateVal = "b";
         this.publicVal = "c";
         this.protectedVal = "d";
+
+        System.out.println("Person init ......");
     }
 }
