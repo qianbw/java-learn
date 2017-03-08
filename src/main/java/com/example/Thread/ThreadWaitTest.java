@@ -30,6 +30,7 @@ public class ThreadWaitTest {
                 try {
                     // 释放锁有两种方式，第一种方式是程序自然离开监视器的范围，也就是离开了synchronized关键字管辖的代码范围，
                     // 另一种方式就是在synchronized关键字管辖的代码内部调用监视器对象的wait方法。这里，使用wait方法释放锁。
+                    // wait必须在synchronized内部调用
                     ThreadWaitTest.class.wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
