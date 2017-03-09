@@ -16,12 +16,14 @@ public class Demo {
     List linkedList = new LinkedList<>();
 
 
-    // 线程不安全，存取速度快
+    // 线程不安全，存取速度快，基于HashMap实现
     Set<String> hashSet = new HashSet<>();
 
-    // 线程不安全，可以对Set集合中的元素进行排序
+    // 线程不安全，可以对Set集合中的元素进行排序，基于TreeMap实现
     Set<String> treeSet = new TreeSet<>();
 
+    // 基于LinkedHashMap实现
+    Set<String> linkedHashSet =  new LinkedHashSet();
 
     // 线程安全，速度慢。底层是哈希表数据结构。是同步的。 不允许null作为键，null作为值
     Map<String, String> hashtable = new Hashtable<>();
